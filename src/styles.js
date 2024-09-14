@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   * {
-    ${tw`text-purple-300 m-0 p-0 box-sizing[border-box] border[0 solid] font-sans`};
+    ${tw`text-purple-300 m-0 p-0 box-sizing[border-spacing-x-0 > 0px] border[0 solid] font-sans`};
   }
 `;
 export const Layout = tw.div`width[100vw] height[100vh] flex justify-center items-center background-color[#292929]`;
